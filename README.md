@@ -11,4 +11,10 @@ Go to http://localhost:8000
 ## Main server file
 app.js
 
+## Routing
+All requests goes through /routes
 
+All front end and static requests go through / (root)
+
+## HTML Pages
+All html pages are in the /views directory. These are hbs files which call partials to include html in other pages.
